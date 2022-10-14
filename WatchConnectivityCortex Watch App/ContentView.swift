@@ -8,19 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+  @StateObject var connectivity: Connectivity = .init()
+  
+  var body: some View {
+    VStack {
+      Text(connectivity.receivedText)
+      Button("Message", action: sendMessage)
     }
+  }
+}
+
+extension ContentView {
+  func sendMessage() {
+    let data = ["text": "Hello from the watch"]
+    connectivity.transferUserInfo(data)
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
