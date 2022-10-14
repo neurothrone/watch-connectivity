@@ -16,6 +16,8 @@
 		2F547EBC28F9F7B4006E8B09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F547EBB28F9F7B4006E8B09 /* ContentView.swift */; };
 		2F547EBE28F9F7B5006E8B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F547EBD28F9F7B5006E8B09 /* Assets.xcassets */; };
 		2F547EC128F9F7B5006E8B09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F547EC028F9F7B5006E8B09 /* Preview Assets.xcassets */; };
+		2F547ECD28F9F7E3006E8B09 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2F547ECB28F9F7E3006E8B09 /* README.md */; };
+		2F547ECE28F9F7E3006E8B09 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2F547ECC28F9F7E3006E8B09 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2F547EBB28F9F7B4006E8B09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F547EBD28F9F7B5006E8B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F547EC028F9F7B5006E8B09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F547ECB28F9F7E3006E8B09 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2F547ECC28F9F7E3006E8B09 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 		2F547E9B28F9F7B3006E8B09 = {
 			isa = PBXGroup;
 			children = (
+				2F547ECC28F9F7E3006E8B09 /* LICENSE */,
+				2F547ECB28F9F7E3006E8B09 /* README.md */,
 				2F547EA628F9F7B4006E8B09 /* WatchConnectivityCortex */,
 				2F547EB828F9F7B4006E8B09 /* WatchConnectivityCortex Watch App */,
 				2F547EA528F9F7B4006E8B09 /* Products */,
@@ -210,7 +216,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F547ECD28F9F7E3006E8B09 /* README.md in Resources */,
 				2F547EAF28F9F7B4006E8B09 /* Preview Assets.xcassets in Resources */,
+				2F547ECE28F9F7E3006E8B09 /* LICENSE in Resources */,
 				2F547EAC28F9F7B4006E8B09 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
